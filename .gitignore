@@ -2,11 +2,6 @@
 outputs/
 *.h5
 *.pkl
-validation/
-validation
-answers.txt
-data/
-papers/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,34 @@
+------—µ¡∑ºØ------
+train
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_train.zip
+
+label
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_label.txt
+
+arrythmia
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_arrythmia.txt
+
+------≤‚ ‘ºØA------
+testA
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_testA.zip
+
+subA
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_subA.txt
+
+
+------≤‚ ‘ºØB------
+testB
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_testB_noDup_rename.zip
+
+subB
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round1/hf_round1_subB_noDup_rename.txt
+
+------∏¥»¸—µ¡∑ºØ------
+train
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round2/hf_round2_train.zip
+
+label
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round2/hf_round2_train.txt
+
+arrythmia
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231754/round2/hf_round2_arrythmia.txt
