@@ -92,22 +92,10 @@ RR间隔：是指连续两个心电周期 R 峰值间隔变化特征，是常用
 * 小波分解能量提取
 
 ### hrv特征
-* RMSSD, Root mean square of successive differences
-* NN50, Number of pairs of successive NN intervals that differ by more than 50ms
-* pNN50, Proportion of NN50 divided by total number of NN intervals
-* NN20, Number of pairs of successive NN intervals that differ by more than 20ms
-* pNN20, Proportion of NN20 divided by total number of NN intervals
-* SDNN, standard deviation of NN intervals
-* mRRi, mean length of RR interval
-* stdRRi, mean length of RR intervals
-* mHR, mean heart rate
-* total_power
-* vlf
-* lf
-* hf
-* lf_hf
-* lfnu
-* hfnu
+* SDNN (Standard Deviation of Normal toNormal)，全部正常心跳间距之标准差，单位为毫秒。
+* SDANN (Standard deviation of the averages of NN intervals inall 5-minute segments of the entirerecording)，全程依五分钟分成连续的时段，先计算每五分钟心跳间期的标准差，再计算标准差的平均值，单位为毫秒。
+* NN50 count (Number of pairs of adjacent NN intervals differingby more than 50 ms in the entirerecording)，心电图中所有每对相邻正常心跳时间间隔，差距超过50毫秒的数目。
+* pNN50 (NN50 count divided by the total number of all NNintervals)，NN50数目除以量测之心电图中所有的正常心跳间隔总数。
 
 ## 模型训练
 ### lightgbm、xgboost、catboost
@@ -124,6 +112,7 @@ fastdtw 采用动态规划来计算两个时间序列之间的相似性，耗时
 针对数据不平衡，loss函数调整  
 
 ## 模型融合
+可参考[KAGGLE ENSEMBLING GUIDE](https://mlwave.com/kaggle-ensembling-guide/)  
 时间关系，只是两个模型加权平均了一下。
 
 ## 所使用的库
@@ -140,4 +129,5 @@ fastdtw 采用动态规划来计算两个时间序列之间的相似性，耗时
 <https://physionet.org/challenge/2017/>  
 <https://github.com/JavisPeng/ecg_pytorch?spm=5176.12282029.0.0.3d952737ec5tuc>  
 <https://github.com/victorkifer/ecg-af-detection-physionet-2017>  
+<https://github.com/MLWave/Kaggle-Ensemble-Guide>
 
