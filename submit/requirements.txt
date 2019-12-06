@@ -1,0 +1,7 @@
+pandas
+tqdm
+scikit-learn
+lightgbm==2.1.1
+seaborn
+wfdb
+pywavelets==1.0.3
