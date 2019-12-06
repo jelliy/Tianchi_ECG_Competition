@@ -129,5 +129,5 @@ fastdtw 采用动态规划来计算两个时间序列之间的相似性，耗时
 <https://physionet.org/challenge/2017/>  
 <https://github.com/JavisPeng/ecg_pytorch?spm=5176.12282029.0.0.3d952737ec5tuc>  
 <https://github.com/victorkifer/ecg-af-detection-physionet-2017>  
-<https://github.com/MLWave/Kaggle-Ensemble-Guide>
-
+<https://github.com/MLWave/Kaggle-Ensemble-Guide>  
+<https://www.xuebuyuan.com/1480653.html>  
